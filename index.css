@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background: #1B244A;
+    background: #1b244a;
 }
 
 .container {
@@ -16,12 +16,12 @@ body {
 .team {
     margin: 20px;
     padding: 68px 85px;
-    border: 2px solid #9AABD8;
+    border: 2px solid #9aabd8;
 }
 
 .team-name {
     margin: 0 auto 21px;
-    color: #EEEEEE;
+    color: #eeeeee;
     text-align: center;
     font-family: Verdana;
     font-weight: 700;
@@ -29,10 +29,10 @@ body {
     line-height: 36px;
 }
 
-.score-text { 
+.score-text {
     margin: 0 auto 26px;
     background: #080001;
-    color: #F94F6D;
+    color: #f94f6d;
     width: 155px;
     height: 120px;
     border-radius: 5px;
@@ -44,17 +44,19 @@ body {
     text-align: center;
 }
 
-
-
 .score-button-container {
     display: flex;
     justify-content: space-around;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 .score-button {
-    background: #1B244A;
-    color: #9AABD8;
-    border: 2px solid #9AABD8;
+    background: #1b244a;
+    color: #9aabd8;
+    border: 2px solid #9aabd8;
     border-radius: 5px;
     width: 45px;
     height: 45px;
@@ -66,10 +68,9 @@ body {
 }
 
 .new-game-btn {
-    background: #1B244A;
-    color: #9AABD8;
-    border: 2px solid #9AABD8;
+    background: #1b244a;
+    color: #9aabd8;
+    border: 2px solid #9aabd8;
     border-radius: 10px;
     padding: 10px 20px;
-    
 }
