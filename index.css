@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Cursed Timer ULiL;
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team {
+    margin: 20px;
+    padding: 68px 85px;
+    border: 2px solid #9AABD8;
+}
+
+.team-name {
+    margin: 0 auto 21px;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
+
+.score-text { 
+    margin: 0 auto 26px;
+    background: #080001;
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 126.67px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+.score-button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-button {
+    background: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-family: Cursed Timer ULiL;
+}
+
+.new-game-btn-container {
+    text-align: center;
+}
+
+.new-game-btn {
+    background: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 10px;
+    padding: 10px 20px;
+    
+}
